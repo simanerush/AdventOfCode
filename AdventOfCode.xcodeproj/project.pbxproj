@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2344FB7327596E1800FFA9DB /* Sequence+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2344FB7227596E1800FFA9DB /* Sequence+Helpers.swift */; };
+		2344FB7527596E3200FFA9DB /* String+Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2344FB7427596E3200FFA9DB /* String+Regex.swift */; };
 		392785D62755B84800922454 /* Day16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392785BE2755B84700922454 /* Day16.swift */; };
 		392785D72755B84800922454 /* Day17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392785BF2755B84700922454 /* Day17.swift */; };
 		392785D82755B84800922454 /* Day19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392785C02755B84700922454 /* Day19.swift */; };
@@ -101,6 +103,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2344FB7227596E1800FFA9DB /* Sequence+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+Helpers.swift"; sourceTree = "<group>"; };
+		2344FB7427596E3200FFA9DB /* String+Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Regex.swift"; sourceTree = "<group>"; };
 		392785BE2755B84700922454 /* Day16.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day16.swift; sourceTree = "<group>"; };
 		392785BF2755B84700922454 /* Day17.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day17.swift; sourceTree = "<group>"; };
 		392785C02755B84700922454 /* Day19.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day19.swift; sourceTree = "<group>"; };
@@ -176,6 +180,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2344FB7127596E0400FFA9DB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2344FB7227596E1800FFA9DB /* Sequence+Helpers.swift */,
+				2344FB7427596E3200FFA9DB /* String+Regex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		39C3D06427556C2F00B2F989 = {
 			isa = PBXGroup;
 			children = (
@@ -197,6 +210,7 @@
 		39C3D06F27556C2F00B2F989 /* AdventOfCode */ = {
 			isa = PBXGroup;
 			children = (
+				2344FB7127596E0400FFA9DB /* Extensions */,
 				39C3D07927556C5B00B2F989 /* Days */,
 				39C3D07027556C2F00B2F989 /* main.swift */,
 			);
@@ -385,8 +399,10 @@
 				392785DB2755B84800922454 /* Day23.swift in Sources */,
 				39C3D07127556C2F00B2F989 /* main.swift in Sources */,
 				392785D92755B84800922454 /* Day20.swift in Sources */,
+				2344FB7527596E3200FFA9DB /* String+Regex.swift in Sources */,
 				392785D82755B84800922454 /* Day19.swift in Sources */,
 				392785E52755B84800922454 /* Day8.swift in Sources */,
+				2344FB7327596E1800FFA9DB /* Sequence+Helpers.swift in Sources */,
 				392785DE2755B84800922454 /* Day3.swift in Sources */,
 				392785D62755B84800922454 /* Day16.swift in Sources */,
 				392785EC2755B84800922454 /* Day14.swift in Sources */,
