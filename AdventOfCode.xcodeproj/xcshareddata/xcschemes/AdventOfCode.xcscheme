@@ -52,7 +52,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "-i /Users/sima/Coding/Swift/advent-of-code-2021-swift"
+            argument = "-i /Users/sima/Coding/Swift/advent-of-code-2021-swift/inputs"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument

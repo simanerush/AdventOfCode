@@ -189,6 +189,13 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		2344FB762759724B00FFA9DB /* Inputs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Inputs;
+			sourceTree = "<group>";
+		};
 		39C3D06427556C2F00B2F989 = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +217,7 @@
 		39C3D06F27556C2F00B2F989 /* AdventOfCode */ = {
 			isa = PBXGroup;
 			children = (
+				2344FB762759724B00FFA9DB /* Inputs */,
 				2344FB7127596E0400FFA9DB /* Extensions */,
 				39C3D07927556C5B00B2F989 /* Days */,
 				39C3D07027556C2F00B2F989 /* main.swift */,
