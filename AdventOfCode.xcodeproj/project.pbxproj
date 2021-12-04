@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2344FB7327596E1800FFA9DB /* Sequence+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2344FB7227596E1800FFA9DB /* Sequence+Helpers.swift */; };
 		2344FB7527596E3200FFA9DB /* String+Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2344FB7427596E3200FFA9DB /* String+Regex.swift */; };
+		2372848C275A9F3B00A5567B /* String+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2372848B275A9F3B00A5567B /* String+Helpers.swift */; };
 		392785D62755B84800922454 /* Day16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392785BE2755B84700922454 /* Day16.swift */; };
 		392785D72755B84800922454 /* Day17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392785BF2755B84700922454 /* Day17.swift */; };
 		392785D82755B84800922454 /* Day19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392785C02755B84700922454 /* Day19.swift */; };
@@ -105,6 +106,7 @@
 /* Begin PBXFileReference section */
 		2344FB7227596E1800FFA9DB /* Sequence+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+Helpers.swift"; sourceTree = "<group>"; };
 		2344FB7427596E3200FFA9DB /* String+Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Regex.swift"; sourceTree = "<group>"; };
+		2372848B275A9F3B00A5567B /* String+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Helpers.swift"; sourceTree = "<group>"; };
 		392785BE2755B84700922454 /* Day16.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day16.swift; sourceTree = "<group>"; };
 		392785BF2755B84700922454 /* Day17.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day17.swift; sourceTree = "<group>"; };
 		392785C02755B84700922454 /* Day19.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day19.swift; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 			children = (
 				2344FB7227596E1800FFA9DB /* Sequence+Helpers.swift */,
 				2344FB7427596E3200FFA9DB /* String+Regex.swift */,
+				2372848B275A9F3B00A5567B /* String+Helpers.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -405,6 +408,7 @@
 				392785DF2755B84800922454 /* Day10.swift in Sources */,
 				392785E62755B84800922454 /* Day22.swift in Sources */,
 				392785DB2755B84800922454 /* Day23.swift in Sources */,
+				2372848C275A9F3B00A5567B /* String+Helpers.swift in Sources */,
 				39C3D07127556C2F00B2F989 /* main.swift in Sources */,
 				392785D92755B84800922454 /* Day20.swift in Sources */,
 				2344FB7527596E3200FFA9DB /* String+Regex.swift in Sources */,
