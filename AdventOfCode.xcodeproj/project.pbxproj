@@ -11,6 +11,9 @@
 		2344FB7527596E3200FFA9DB /* String+Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2344FB7427596E3200FFA9DB /* String+Regex.swift */; };
 		2372848C275A9F3B00A5567B /* String+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2372848B275A9F3B00A5567B /* String+Helpers.swift */; };
 		23728490275D7DF800A5567B /* Day+GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2372848F275D7DF800A5567B /* Day+GCD.swift */; };
+		23E1C7482763FB860098CBC5 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = 23E1C7472763FB860098CBC5 /* Collections */; };
+		23E1C74A2763FB860098CBC5 /* DequeModule in Frameworks */ = {isa = PBXBuildFile; productRef = 23E1C7492763FB860098CBC5 /* DequeModule */; };
+		23E1C74C2763FB860098CBC5 /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 23E1C74B2763FB860098CBC5 /* OrderedCollections */; };
 		392785D62755B84800922454 /* Day16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392785BE2755B84700922454 /* Day16.swift */; };
 		392785D72755B84800922454 /* Day17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392785BF2755B84700922454 /* Day17.swift */; };
 		392785D82755B84800922454 /* Day19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392785C02755B84700922454 /* Day19.swift */; };
@@ -170,7 +173,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23E1C7482763FB860098CBC5 /* Collections in Frameworks */,
 				39C3D0B92755752000B2F989 /* Algorithms in Frameworks */,
+				23E1C74C2763FB860098CBC5 /* OrderedCollections in Frameworks */,
+				23E1C74A2763FB860098CBC5 /* DequeModule in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +320,9 @@
 			name = AdventOfCode;
 			packageProductDependencies = (
 				39C3D0B82755752000B2F989 /* Algorithms */,
+				23E1C7472763FB860098CBC5 /* Collections */,
+				23E1C7492763FB860098CBC5 /* DequeModule */,
+				23E1C74B2763FB860098CBC5 /* OrderedCollections */,
 			);
 			productName = AdventOfCode;
 			productReference = 39C3D06D27556C2F00B2F989 /* AdventOfCode */;
@@ -365,6 +374,7 @@
 			mainGroup = 39C3D06427556C2F00B2F989;
 			packageReferences = (
 				39C3D0B72755752000B2F989 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				23E1C7462763FB860098CBC5 /* XCRemoteSwiftPackageReference "swift-collections" */,
 			);
 			productRefGroup = 39C3D06E27556C2F00B2F989 /* Products */;
 			projectDirPath = "";
@@ -692,6 +702,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		23E1C7462763FB860098CBC5 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 		39C3D0B72755752000B2F989 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/apple/swift-algorithms.git";
@@ -703,6 +721,21 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		23E1C7472763FB860098CBC5 /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23E1C7462763FB860098CBC5 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = Collections;
+		};
+		23E1C7492763FB860098CBC5 /* DequeModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23E1C7462763FB860098CBC5 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = DequeModule;
+		};
+		23E1C74B2763FB860098CBC5 /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23E1C7462763FB860098CBC5 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
+		};
 		39C3D0B82755752000B2F989 /* Algorithms */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 39C3D0B72755752000B2F989 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
