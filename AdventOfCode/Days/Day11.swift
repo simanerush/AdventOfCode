@@ -7,10 +7,10 @@ import Foundation
 
 final class Day11: Day {
     
-    func simulate(_ input: inout [[Int]]) {
-        for i in 0...input.count - 1 {
-            for j in 0...input.count - 1 {
-                input[i][j] += 1
+    func simulate(_ points: inout [[Int]]) {
+        for i in 0...points.count - 1 {
+            for j in 0...points.count - 1 {
+                points[i][j] += 1
             }
         }
     }
@@ -19,16 +19,23 @@ final class Day11: Day {
         var flashesCount = 0
         var excludedPoints: [(Int, Int)] = []
         for i in 0...points.count - 1 {
-            for j in 0...points[0].count - 1 {
-                if points[i][j] > 9 && !excluded.contains(where: { pair in
+            for j in 0...points.count - 1 {
+                if points[i][j] >= 10 && !excluded.contains(where: { pair in
                     i == pair.0 && j == pair.1
                 }) {
+                    points[i][j] = 0
+                    flashesCount += 1
                     excludedPoints.append((i, j))
                     let neighbors = findNeighbors(point: (i, j), height: points.count, length: points[0].count)
                     for (i, j) in neighbors {
-                        points[i][j] += 1
+                        if !excluded.contains(where: { pair in
+                            i == pair.0 && j == pair.1
+                        }) && !excludedPoints.contains(where: { pair in
+                            i == pair.0 && j == pair.1
+                        }) {
+                            points[i][j] += 1
+                        }
                     }
-                    flashesCount += 1
                 }
             }
         }
@@ -80,15 +87,36 @@ final class Day11: Day {
             }
         
         var flashesCount = 0
-        for _ in 0...100 {
+        for _ in 0..<100 {
             simulate(&inputParsed)
-            flashesCount += flashes(points: &inputParsed, excluded: [])
+            let flashes = flashes(points: &inputParsed, excluded: [])
+            print(flashes)
+            flashesCount += flashes
         }
-        
+
         return flashesCount
     }
 
     func part2(_ input: String) -> CustomStringConvertible {
-        return 0
+        var inputParsed = input
+            .lines
+            .map {
+                line in line.map{$0.wholeNumberValue!}
+            }
+        
+        var flashesCount = 0
+        var step = 0
+        while true {
+            simulate(&inputParsed)
+            let flashes = flashes(points: &inputParsed, excluded: [])
+            print(flashes)
+            flashesCount += flashes
+            if flashes == 100 {
+                return step + 1
+            }
+            step += 1
+        }
+        
+        return -1
     }
 }
