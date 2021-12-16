@@ -54,7 +54,7 @@ final class Day13: Day {
                 let string = coord.split(separator: ",")
                 return (Int(String(string[0]))!, Int(String(string[1]))!)
             }
-        let commands = parsedInput[point!..<parsedInput.count]
+        _ = parsedInput[point!..<parsedInput.count]
             .map { command -> (String, Int) in
                 let string = command.split(separator: "=")
                 return (String(string[0]), Int(String(string[1]))!)
