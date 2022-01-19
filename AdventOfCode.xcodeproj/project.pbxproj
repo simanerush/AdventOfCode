@@ -112,6 +112,22 @@
 		2344FB7427596E3200FFA9DB /* String+Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Regex.swift"; sourceTree = "<group>"; };
 		2372848B275A9F3B00A5567B /* String+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Helpers.swift"; sourceTree = "<group>"; };
 		2372848F275D7DF800A5567B /* Day+GCD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day+GCD.swift"; sourceTree = "<group>"; };
+		23F38FCB2797576D00EB2C4B /* day6_input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = day6_input.txt; sourceTree = "<group>"; };
+		23F38FCC2797576D00EB2C4B /* day14_input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = day14_input.txt; sourceTree = "<group>"; };
+		23F38FCD2797576D00EB2C4B /* day9_input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = day9_input.txt; sourceTree = "<group>"; };
+		23F38FCE2797576D00EB2C4B /* day2_input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = day2_input.txt; sourceTree = "<group>"; };
+		23F38FCF2797576D00EB2C4B /* day5_input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = day5_input.txt; sourceTree = "<group>"; };
+		23F38FD02797576D00EB2C4B /* day10_input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = day10_input.txt; sourceTree = "<group>"; };
+		23F38FD12797576D00EB2C4B /* day13_input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = day13_input.txt; sourceTree = "<group>"; };
+		23F38FD22797576D00EB2C4B /* day12_input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = day12_input.txt; sourceTree = "<group>"; };
+		23F38FD32797576D00EB2C4B /* day1_input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = day1_input.txt; sourceTree = "<group>"; };
+		23F38FD42797576D00EB2C4B /* day15_input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = day15_input.txt; sourceTree = "<group>"; };
+		23F38FD52797576D00EB2C4B /* day4_input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = day4_input.txt; sourceTree = "<group>"; };
+		23F38FD62797576D00EB2C4B /* day3_input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = day3_input.txt; sourceTree = "<group>"; };
+		23F38FD72797576D00EB2C4B /* day11_input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = day11_input.txt; sourceTree = "<group>"; };
+		23F38FD82797576D00EB2C4B /* day7_input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = day7_input.txt; sourceTree = "<group>"; };
+		23F38FD92797576D00EB2C4B /* day16_input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = day16_input.txt; sourceTree = "<group>"; };
+		23F38FDA2797576D00EB2C4B /* day8_input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = day8_input.txt; sourceTree = "<group>"; };
 		392785BE2755B84700922454 /* Day16.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day16.swift; sourceTree = "<group>"; };
 		392785BF2755B84700922454 /* Day17.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day17.swift; sourceTree = "<group>"; };
 		392785C02755B84700922454 /* Day19.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day19.swift; sourceTree = "<group>"; };
@@ -211,6 +227,22 @@
 		2344FB762759724B00FFA9DB /* Inputs */ = {
 			isa = PBXGroup;
 			children = (
+				23F38FD32797576D00EB2C4B /* day1_input.txt */,
+				23F38FCE2797576D00EB2C4B /* day2_input.txt */,
+				23F38FD62797576D00EB2C4B /* day3_input.txt */,
+				23F38FD52797576D00EB2C4B /* day4_input.txt */,
+				23F38FCF2797576D00EB2C4B /* day5_input.txt */,
+				23F38FCB2797576D00EB2C4B /* day6_input.txt */,
+				23F38FD82797576D00EB2C4B /* day7_input.txt */,
+				23F38FDA2797576D00EB2C4B /* day8_input.txt */,
+				23F38FCD2797576D00EB2C4B /* day9_input.txt */,
+				23F38FD02797576D00EB2C4B /* day10_input.txt */,
+				23F38FD72797576D00EB2C4B /* day11_input.txt */,
+				23F38FD22797576D00EB2C4B /* day12_input.txt */,
+				23F38FD12797576D00EB2C4B /* day13_input.txt */,
+				23F38FCC2797576D00EB2C4B /* day14_input.txt */,
+				23F38FD42797576D00EB2C4B /* day15_input.txt */,
+				23F38FD92797576D00EB2C4B /* day16_input.txt */,
 			);
 			path = Inputs;
 			sourceTree = "<group>";
